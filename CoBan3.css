@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.box {
+  margin: 7px;
+  width: 24%;
+  height: 50px;
+  color: white;
+  background-color: #3498db;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box5 {
+  display: flex;
+  width: 49%;
+}

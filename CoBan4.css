@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  color: white;
+}
+.header {
+  height: 56px;
+  background-color: #3498db;
+  padding: 16px 12px;
+  margin: 10px;
+}
+
+.main {
+  height: 400px;
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+.sidebar {
+  background-color: #2ecc71;
+  order: 1;
+  flex: 1;
+  padding: 16px 12px;
+}
+.content {
+  background-color: #e74c3c;
+  order: 2;
+  flex: 3;
+  padding: 16px 12px;
+}
+.footer {
+  height: 56px;
+  background-color: #9b59b6;
+  padding: 16px 12px;
+  margin: 10px;
+}
