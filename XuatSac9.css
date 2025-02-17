@@ -38,20 +38,7 @@ body {
   background-position: center;
 }
 
-.small:nth-child(1) {
-  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
-}
-.small:nth-child(2) {
-  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
-}
-.small:nth-child(3) {
-  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
-}
-
-.medium:nth-child(1) {
-  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
-}
-.medium:nth-child(3) {
+.small {
   background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
 }
 
