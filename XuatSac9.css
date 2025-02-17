@@ -66,8 +66,8 @@ body {
 
 .overlay {
   position: absolute;
-  padding: 10px;
-  color: black;
+  padding: 50px 30px;
+  color: white;
   font-size: 16px;
   font-weight: bold;
 }
@@ -76,4 +76,5 @@ body {
   display: block;
   font-size: 14px;
   font-weight: normal;
+  padding-top: 30px;
 }
