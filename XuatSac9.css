@@ -48,13 +48,6 @@ body {
   background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
 }
 
-.medium {
-  width: 40%;
-  height: 150px;
-  background-size: cover;
-  background-position: center;
-}
-
 .medium:nth-child(1) {
   background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
 }
@@ -63,8 +56,10 @@ body {
 }
 
 .red-box {
-  width: 20%;
+  width: 33.33%;
   height: 150px;
+  background-size: cover;
+  background-position: center;
   background-color: darkred;
   display: flex;
   align-items: center;
