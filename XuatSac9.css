@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.large {
+  width: 1700px;
+  height: 250px;
+  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.small {
+  width: 33.33%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.small:nth-child(1) {
+  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
+}
+.small:nth-child(2) {
+  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
+}
+.small:nth-child(3) {
+  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
+}
+
+.medium {
+  width: 40%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.medium:nth-child(1) {
+  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
+}
+.medium:nth-child(3) {
+  background-image: url(https://data.webnhiepanh.com/wp-content/uploads/2020/11/21105453/phong-canh-1.jpg);
+}
+
+.red-box {
+  width: 20%;
+  height: 150px;
+  background-color: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+
+.red-box button {
+  background: white;
+  color: darkred;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  padding: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.overlay span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
